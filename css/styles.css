@@ -474,25 +474,34 @@ h6 {
   border-radius: 4px;
   background-color: transparent;
   display: block;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-email::placeholder {
   color: var(--white-color);
 }
+.input-email:hover,
+.input-email:focus {
+  border: 1px solid #4d5ae5;
+}
 .btn-email {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--white-color);
-background: var(--first-logo-color);
-border-radius: 4px;
-display: flex;
-align-items: center;
-justify-content: center;
-min-width: 165px;
-padding: 8px 24px;
-cursor: pointer;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background: var(--first-logo-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  padding: 8px 24px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-email:hover,
+.btn-email:focus {
+  background-color: #404bbf;
 }
 .icons-email {
   margin-left: 16px;
