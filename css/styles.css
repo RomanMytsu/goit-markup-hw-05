@@ -458,8 +458,6 @@ h6 {
   align-items: flex-end;
   gap: 24px;
 }
-.label-email {
-}
 .input-email {
   font-weight: 400;
   height: 40px;
