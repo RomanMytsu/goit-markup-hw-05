@@ -761,7 +761,7 @@ h6 {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check-icons {
-  fill: #F4F4FD;
+  fill: var(--second-logo-color-footer);
 }
 .privacy-link {
   color: var(--first-logo-color);
